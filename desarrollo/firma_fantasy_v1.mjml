@@ -1,0 +1,50 @@
+<mjml>
+  
+   <mj-head>
+     <mj-attributes>
+      <mj-text padding="0" />    
+      <mj-all font-family="Arial" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      
+      .nombre div {
+        color: #000000 !important;
+      	font-size: 23px !important;
+      	line-height: 0px !important;
+      	padding-bottom: 0px !important;
+      	padding-top: 20px !important;
+      	text-align: left !important;
+      }
+      .datos div {
+        color: #000000 !important;
+      	font-size: 14px !important;
+      	line-height: 150% !important;
+      	padding-bottom: 10px !important;
+      	padding-top: 0px !important;
+     	  text-align: left !important;
+      }
+    
+    </mj-style>
+    </mj-head>
+    
+  <mj-body background-color="#d6dde5" >
+         
+    <mj-section background-color="#ffffff" padding-bottom="20px" padding-top="0" padding-left="50px" padding-right="50px">
+      <mj-column>
+        <mj-image src="https://fantasynails.es//imagenes/firmas/img/logo.jpg" alt="Fantasy Nails logo" align="left" border="none" width="113px" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="10px"></mj-image>
+      </mj-column>
+      <mj-column>
+         <mj-text css-class="nombre">
+           <p><strong>Daniel</strong> Eguía</p></mj-text> 
+          <mj-text css-class="datos"> <p>952 42 59 22 <br>publicidad@fantasynails.es</br></p>
+        </mj-text>
+        <mj-social padding-top="0px">
+          <mj-social-element name="facebook" href="[[SHORT_PERMALINK]]"></mj-social-element>
+          <mj-social-element name="twitter" href="[[SHORT_PERMALINK]]"></mj-social-element>
+          <mj-social-element name="google" href="[[SHORT_PERMALINK]]"></mj-social-element>
+        </mj-social>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-bottom="20px" padding-top="0px"></mj-section>
+  </mj-body>
+</mjml>

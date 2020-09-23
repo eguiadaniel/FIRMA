@@ -1,0 +1,120 @@
+<mjml>
+  
+   <mj-head>
+     <mj-attributes>
+      <mj-text padding="0" />    
+      <mj-all font-family="Arial" />
+    </mj-attributes>
+    <mj-style>
+      @media (min-width:480px) { 
+        .hpadding {
+      	padding-left: 0px !important;
+      	padding-right: 0px !important;
+      }
+      }
+     </mj-style>
+    <mj-style inline="inline">
+      
+      p {
+      padding: 0px !important;
+      margin: 0px !important;
+      }
+      
+      .hpadding {
+      	padding-left: 0px !important;
+      	padding-right: 0px !important;
+      }
+      
+      .nombre div {
+        color: #000000 !important;
+      	font-size: 25px !important;
+      	line-height: 0px !important;
+      	padding-bottom: 25px !important;
+      	padding-top: 20px !important;
+      	text-align: left !important;
+      }
+      
+      .datos div {
+        color: #000000;
+      	font-size: 15px !important;
+      	line-height: 150% !important;
+      	padding-bottom:  !important;
+      	padding-top: !important;
+     	  text-align: left !important;
+      }
+      
+      .link-nostyle { 
+      	color: inherit; text-decoration: none 
+      }
+      
+      .pre-footer {
+      	border-top-color: black;
+				border-top-style: solid;
+				border-top-width: 7px;
+      	padding-top: 10px;
+      }
+      
+      .post-footer div {
+      	border-top-color: black;
+				border-top-style: solid;
+				border-top-width: thin;
+      	padding-top: 10px !important;
+        text-align: left !important;
+        color: grey !important;
+        line-height: 130% !important; 
+        font-size: 11px !important;
+      }
+
+      .aviso div {
+      	font
+      	padding-top: 10px !important;
+        text-align: left !important;
+        color: #lightgrey !important;
+        line-height: 120% !important; 
+        font-size: 9px !important;
+      }
+      
+
+    
+    
+    </mj-style>
+    </mj-head>
+    
+  <mj-body background-color="#ffffff" >
+   
+   
+  <mj-wrapper padding-left="10px" padding-right="10px">
+    <mj-section css-class="pre-footer hpadding" background-color="#ffffff" padding-bottom="25px" padding-top="0">
+      <mj-column>
+        <mj-image src="https://fantasynails.es//imagenes/firmas/img/logo.png" alt="Fantasy Nails logo" align="left" border="none" width="140px" padding="20px 0px 10px 0px"></mj-image>
+      </mj-column>
+      <mj-column>
+         <mj-text css-class="nombre">
+          <strong>Daniel</strong> Eguía</mj-text> 
+          <mj-text css-class="datos"> 952 42 59 22</mj-text>
+        <mj-text css-class="datos"><a href="mailto:publicidad@fantasynails.es" class="link-nostyle">publicidad@fantasynails.es</a></mj-text>
+          <mj-text css-class="datos"><a href="https://www.fantasynails.es" class="link-nostyle">www.fantasynails.es</a></mj-text>                
+          <mj-social font-size="15px" icon-size="20px" mode="horizontal" padding="20px 0px 0px" align="left">
+          
+           <mj-social-element name="instagram" href="https://www.instagram.com/fantasy_nails_europe/" border-radius="50%" icon-padding="5px" background-color="#000000"padding="0px 20px 0px 0px">
+          </mj-social-element>
+          <mj-social-element name="facebook" href="https://www.facebook.com/fantasynails.es/" border-radius="50%" icon-padding="5px" background-color="#000000"padding="0px 20px 0px 0px">
+          </mj-social-element>
+          <mj-social-element  name="youtube" href="https://www.youtube.com/channel/UCyqyeU5BqoUn_v6f1twAI8A" border-radius="50%" icon-padding="5px" background-color="#000000"padding="0px 20px 0px 0px">
+          </mj-social-element>
+        </mj-social>
+            </mj-column>
+    </mj-section>
+    <mj-section css-class="hpadding" background-color="#ffffff" padding-bottom="20px" padding-top="0" >
+    <mj-column css-class="post-footer" ><mj-text>Parque Tecnologico De Andalucia. Calle Pasaje Graham Bell, 10. 29590 Málaga<br> © 2020 Fantasy Nails Europe. Todos los derechos reservados.
+      </mj-text>
+      </mj-column>
+      </mj-section>
+       <mj-section css-class="hpadding" background-color="#ffffff" padding-bottom="20px" padding-top="0" >
+    <mj-column css-class="aviso" ><mj-text>Este mensaje contiene información reservada y confidencial destinada exclusivamente al destinatario. Si usted no es el destinatario no está autorizado a copiar, reproducir o distribuir este mensaje ni su contenido. Si ha recibido este mensaje por error, le rogamos que nos lo notifique inmediatamente. Le informamos que los datos personales que puedan constar en este mensaje, como datos identificativos, dirección postal y de correo electrónico, están incorporados a un fichero automatizado responsabilidad de FANTASY NAILS EUROPE S.L. con la finalidad de mantener sus datos de contacto. En cualquier momento usted podrá ejercer sus derechos de acceso, rectificación, cancelación y oposición, dirigiéndose por escrito a Pasaje Graham Bell, 10 Parque Tecnológico de Andalucía Campanillas 29590.
+      </mj-text>
+      </mj-column>
+      </mj-section>
+      </mj-wrapper> 
+  </mj-body>
+</mjml>

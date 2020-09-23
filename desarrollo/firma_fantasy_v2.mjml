@@ -1,0 +1,77 @@
+<mjml>
+  
+   <mj-head>
+     <mj-attributes>
+      <mj-text padding="0" />    
+      <mj-all font-family="Arial" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      
+      .nombre div {
+        color: #000000 !important;
+      	font-size: 23px !important;
+      	line-height: 0px !important;
+      	padding-bottom: 0px !important;
+      	padding-top: 20px !important;
+      	text-align: left !important;
+      }
+      .datos div {
+        color: #000000 !important;
+      	font-size: 14px !important;
+      	line-height: 150% !important;
+      	padding-bottom: 10px !important;
+      	padding-top: 0px !important;
+     	  text-align: left !important;
+      }
+      
+      .pre-footer{
+      	border-top-color: black;
+				border-top-style: solid;
+				border-top-width: 5px;
+      	padding-top: 10px;
+      }
+      
+      .post-footer div {
+      	border-top-color: black;
+				border-top-style: solid;
+				border-top-width: thin;
+      	padding-top: 10px;
+      }
+    
+    </mj-style>
+    </mj-head>
+    
+  <mj-body background-color="#ffffff" >
+   
+      
+   
+    <mj-section css-class="pre-footer" background-color="#ffffff" padding-bottom="20px" padding-top="0" padding-left="50px" padding-right="50px">
+      <mj-column>
+        <mj-image src="https://fantasynails.es//imagenes/firmas/img/logo.jpg" alt="Fantasy Nails logo" align="left" border="none" width="113px" padding-left="0px" padding-right="0px" padding-bottom="20px" padding-top="10px"></mj-image>
+      </mj-column>
+      <mj-column>
+         <mj-text css-class="nombre">
+           <p><strong>Daniel</strong> Eguía</p></mj-text> 
+          <mj-text css-class="datos"> <p>952 42 59 22 <br>publicidad@fantasynails.es</br></p>
+        </mj-text>
+        
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal" align="left">
+          <mj-social-element  name="web" href="#" border-radius="50%" icon-padding="5px" background-color="#000000" padding="0px 5px">
+          </mj-social-element>
+           <mj-social-element name="instagram" href="#" border-radius="50%" icon-padding="5px" background-color="#000000"padding="0px 5px">
+          </mj-social-element>
+          <mj-social-element name="facebook" href="#" border-radius="50%" icon-padding="5px" background-color="#000000"padding="0px 5px">
+          </mj-social-element>
+         
+          
+          <mj-social-element  name="youtube" href="#" border-radius="50%" icon-padding="5px" background-color="#000000"padding="0px 5px">
+          </mj-social-element>
+        </mj-social>
+            </mj-column>
+    </mj-section>
+    <mj-section css-class="post-footer" background-color="#ffffff" padding-bottom="20px" padding-top="0" padding-left="50px" padding-right="50px">
+    <mj-text align="center" color="grey" line-height="130%" font-size="11px" border-top="black solid">Parque Tecnologico De Andalucia. Calle Pasaje Graham Bell, 10. 29590 Málaga<br>
+© 2020 Fantasy Nails Europe. Todos los derechos reservados.
+      </mj-text></mj-section>
+  </mj-body>
+</mjml>
